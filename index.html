@@ -45,23 +45,29 @@
     </router-link>
 
     <div class="nav__actions">
-        <button
-            class="nav__icon"
-            @click.prevent="store.toggleDark()"
-        >
-                        <img
-                            :src="store.dark ? '/assets/light.svg' : '/assets/dark.svg'"
-                            alt=""
-                        />
-                    <a class="nav__icon" href="https://github.com/efngod167/ConsistencyChallengeList">
-                        <img src="/assets/github.svg" alt="Github Logo"/>
-                    </a>
-                    <a
-                        class="nav__cta type-label-lg"
-                        href="https://discord.gg/pgdJ4f5VJg"
-                        target="_blank"
-                        >Join Server</a
-                    >
+       <button
+    class="nav__icon"
+    @click.prevent="store.toggleDark()"
+>
+    <img
+        :src="store.dark ? '/assets/light.svg' : '/assets/dark.svg'"
+        alt=""
+    />
+</button>
+
+<span style="width: 10px; display:inline-block;"></span>
+
+<a class="nav__icon" href="https://github.com/efngod167/ConsistencyChallengeList" target="_blank">
+    <img src="/assets/github.svg" alt="Github Logo"/>
+</a>
+
+<a
+    class="nav__cta type-label-lg"
+    href="https://discord.gg/pgdJ4f5VJg"
+    target="_blank"
+>
+    Join Server
+</a>
                 </div>
             </nav>
         </header>
