@@ -1,6 +1,8 @@
-{
-  "id": 1,
-  "name": "Test Level",
-  "author": "You",
-  "placement": 1
-}
+[
+  {
+    "id": 1,
+    "name": "Test Level",
+    "author": "You",
+    "placement": 1
+  }
+]
