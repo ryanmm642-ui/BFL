@@ -193,7 +193,7 @@ export default {
             </ol>
           </template>
         <h3>What is this list?</h3>
-        <p>This list ranks the hardest flukes on levels in the top 150. We do not accept records on flukes that are already on the list, however if you get a fluke on a level, lets say the current fluke is 60%-100%, and you get 50%-100%, then your record will replace the current one</p>
+        <p>This is a made-up list with made-up players</p>
         </div>
       </div>
     </main>
