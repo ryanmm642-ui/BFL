@@ -1,8 +1,8 @@
 {
-    "id": 1,
-    "name": "testlevel",
-    "author": "TestPlayer",
-    "creators": ["TestPlayer"],
+    "id": ,
+    "name": "Primus",
+    "author": "Gem3",
+    "creators": ["Gem3, AYMAZING, Nikolous, Ganapomrat, Exollis, Blixer, f1shy, T4L0NDXGD, JakeSterlingGD, GDYT1107, ErikaGD, ArVolt218, Eclipsiq, RXZY, MIK3LGD, torlynn3, Lant3rnDX, BitterwolfDX, AMNIES, Vaylkir, Jaundice, MISTiclDX, CRYPTEX1104887, lowercase44, CAPITAL55, Mausk, Hargov, spikLL"],
     "verifier": "TestVerifier",
     "verification": "",
     "percentToQualify": "70",
