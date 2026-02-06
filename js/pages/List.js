@@ -110,7 +110,6 @@ export default {
             </td>
           </tr>
         </table>
-        <p v-if="filteredList.length === 0">No levels match your search.</p>
       </div>
       <div class="level-container" v-if="selectedLevel">
         <div class="level">
