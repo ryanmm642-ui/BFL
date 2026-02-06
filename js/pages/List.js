@@ -86,7 +86,13 @@ export default {
   template: `
     <main v-if="loading">
       <Spinner></Spinner>
-    
+    </main>
+    <main v-else class="page-list">
+      <div class="list-container">
+        <!-- Search Bar -->
+        <div class="search-bar">
+          <input type="text" v-model="searchQuery" placeholder="Search levels..." />
+        </div>
         <table class="list" v-if="filteredList.length">
           <tr v-for="(item, i) in filteredList" :key="i">
             <td class="rank">
