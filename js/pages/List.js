@@ -86,26 +86,7 @@ export default {
   template: `
     <main v-if="loading">
       <Spinner></Spinner>
-    </main>
-    <main v-else class="page-list">
-      <div class="list-container">
-        <!-- Search Bar -->
-        <div class="search-bar">
-          <input type="text" v-model="searchQuery" placeholder="Search levels..." />
-        </div>
-        <table class="list" v-if="filteredList.length">
-          <tr v-for="(item, i) in filteredList" :key="i">
-            <td class="rank">
-              <p v-if="getOriginalRank(item[0]) <= 200" class="type-label-lg">
-                #{{ getOriginalRank(item[0]) }}
-              </p>
-              <p v-else class="type-label-lg">Legacy</p>
-            </td>
-            <td class="level" :class="{ 'active': selected === i, 'error': !item[0] }">
-              <button @click="selected = i">
-                <span class="type-label-lg">
-                  {{ item[0]?.name || \`Error (\${item[1]}.json)\` }}
-                </span>
+   
               </button>
             </td>
           </tr>
