@@ -184,7 +184,7 @@ export default {
             </p>
           </div>
           <template v-if="editors">
-            <h3>List Editors</h3>
+            <h3></h3>
             <ol class="editors">
               <li v-for="editor in editors" :key="editor.name">
                 <img :src="\`/assets/\${roleIconMap[editor.role]}\${store.dark ? '-dark' : ''}.svg\`" :alt="editor.role">
@@ -193,8 +193,8 @@ export default {
               </li>
             </ol>
           </template>
-        <h3>Level Requirements</h3>
-        <p>Every level must be consistency based.</p>
+        <h3>What is this list?</h3>
+        <p>This list ranks the hardest flukes on levels in the top 150. We do not accept records on flukes that are already on the list, however if you get a fluke on a level, lets say the current fluke is 60%-100%, and you get 50%-100%, then your record will replace the current one</p>
         </div>
       </div>
     </main>
