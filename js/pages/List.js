@@ -193,7 +193,7 @@ export default {
             </ol>
           </template>
         <h3>What is this list?</h3>
-        <p>This is a made-up list with made-up players</p>
+        <p>Empty</p>
         </div>
       </div>
     </main>
